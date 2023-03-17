@@ -1,6 +1,6 @@
 
 // const axios = require('axios');
-// const apiKey = 'AIzaSyACTfPoef2l9yPFil_bCGyUlEZCpplMHNc';
+// const apiKey = '<key>';
 
 // async function getSchoolPhoneNumbers(area) {
 //   // const radius = '20000'; // The search radius in meters (in this case, 5 km)

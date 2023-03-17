@@ -102,8 +102,8 @@
 // //   });
 const XLSX = require('xlsx');
 
-// const _jpNeighborhoods = process.argv[2].split(",")
-const _jpNeighborhoods = ['names', 'names']
+const _jpNeighborhoods = process.argv[2].split(",")
+// const _jpNeighborhoods = ['names', 'names']
 
 const puppeteer = require("puppeteer-extra");
 const StealthPlugin = require("puppeteer-extra-plugin-stealth");

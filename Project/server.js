@@ -1,6 +1,6 @@
 
 // const axios = require('axios');
-// const apiKey = 'AIzaSyACTfPoef2l9yPFil_bCGyUlEZCpplMHNc';
+// const apiKey = '<key>';
 
 // async function getSchoolPhoneNumbers(area) {
 //   // const radius = '20000'; // The search radius in meters (in this case, 5 km)
@@ -102,8 +102,8 @@
 // //   });
 const XLSX = require('xlsx');
 
-// const _jpNeighborhoods = process.argv[2].split(",")
-const _jpNeighborhoods = ['names', 'names']
+const _jpNeighborhoods = process.argv[2].split(",")
+// const _jpNeighborhoods = ['names', 'names']
 
 const puppeteer = require("puppeteer-extra");
 const StealthPlugin = require("puppeteer-extra-plugin-stealth");
